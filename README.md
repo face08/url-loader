@@ -11,6 +11,9 @@
 [![chat][chat]][chat-url]
 [![size][size]][size-url]
 
+# git
+提交格式有规定
+
 # url-loader
 
 A loader for webpack which transforms files into base64 URIs.
