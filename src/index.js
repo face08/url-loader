@@ -47,6 +47,7 @@ export default function loader(src) {
     options: fallbackOptions,
   } = normalizeFallback(options.fallback, options);
 
+  // 在文件大于limit时，交于处理的加载器
   // Require the fallback.
   const fallback = require(fallbackLoader);
 
