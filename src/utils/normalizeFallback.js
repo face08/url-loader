@@ -1,5 +1,6 @@
 import loaderUtils from 'loader-utils';
 
+// 格式化fallback的loader 和参数
 export default function normalizeFallback(fallback, originalOptions) {
   let loader = 'file-loader';
   let options = {};
